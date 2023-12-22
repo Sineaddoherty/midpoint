@@ -1,0 +1,89 @@
+<style>
+
+	 form { 
+			border: 3px solid #4f779b; 
+		} 
+	
+	 button:hover { 
+			opacity: 0.7; 
+		} 
+	  
+    
+        body {
+          background-image: url(images/im.png);
+        }
+        
+		H24 {
+			font-style: initial;
+			font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		}
+	   
+	 .container { 
+			padding: 25px; 
+			background-color: #5aa3a4;
+		
+		} 
+		button{
+			background-color: white;
+			border-radius:2px;
+			padding: 1em;
+			color:#090909;
+			font-weight:bolder;
+		}
+
+		label1 {
+			color: green;
+			font-size:x-large;
+			font-weight:bolder;
+			
+		}
+		label2 {
+			color:chocolate;
+			font-size:x-large;
+			font-weight:bolder;
+		}
+		label3 {
+			color:darkred;
+			font-size:x-large;
+			font-weight:bolder;
+			
+		}
+
+		.box{
+			display:block;
+			flex-direction: column;
+			background-color:#3c468f;
+			color: white;
+			padding: 25px;
+			margin: 6em;
+			border-radius: 10px;
+			justify-content: left;
+		}
+
+		.box2{
+			display:block;
+			flex-direction: column;
+			background-color:#5b639a;
+			color: white;
+			padding: 25px;
+			margin: 6em;
+			border-radius: 10px;
+			justify-content: left;
+		}
+
+		.loader {
+			border: 10px solid #f3f3f3;
+			border-radius: 80%;
+			border-top: 10px solid #3c468f;
+			width: 550px;
+			height: 550px;
+			-webkit-animation: spin 6s linear infinite; 
+			animation: spin 2s linear infinite;
+		  
+		  }
+		  
+		  
+		  @-webkit-keyframes spin {
+			100% { -webkit-transform: rotate(360deg); }
+		  }
+</style>
